@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import "./App.css";
-import Products from "./components/Products";
+import React, { useState } from 'react';
+import './App.css';
+import Products from './components/Products';
 
 export default function AppProducts() {
   const [showProducts, setShowProducts] = useState(true);
