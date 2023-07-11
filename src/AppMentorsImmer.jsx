@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { useImmer } from 'use-immer';
+import React from "react";
+import { useImmer } from "use-immer";
 
 export default function AppMentorsImmer() {
   const [person, updatePerson] = useImmer(initialPerson);
@@ -44,16 +44,16 @@ export default function AppMentorsImmer() {
 }
 
 const initialPerson = {
-  name: '엘리',
-  title: '개발자',
+  name: "엘리",
+  title: "개발자",
   mentors: [
     {
-      name: '밥',
-      title: '시니어개발자',
+      name: "밥",
+      title: "시니어개발자",
     },
     {
-      name: '제임스',
-      title: '시니어개발자',
+      name: "제임스",
+      title: "시니어개발자",
     },
   ],
 };
