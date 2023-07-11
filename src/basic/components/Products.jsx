@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import useProducts from "../hooks/use-producs";
 
 export default function Products() {
